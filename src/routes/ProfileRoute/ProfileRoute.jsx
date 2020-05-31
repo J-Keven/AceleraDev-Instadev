@@ -1,15 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import UserProfile from '../../containers/UserProfile';
-import UserPosts from '../../containers/UserPosts';
+import UserProfile from "../../containers/UserProfile";
+import UserPosts from "../../containers/UserPosts";
 
-import Loading from '../../components/Loading';
+import Loading from "../../components/Loading";
 
 const ProfileRoute = () => {
-  return (
-    <div>
-    </div>
-  );
+  return <div data-testid="profile-route"></div>;
 };
 
 export default ProfileRoute;

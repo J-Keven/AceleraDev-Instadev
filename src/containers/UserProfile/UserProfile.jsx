@@ -1,12 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import './UserProfile.scss';
+import "./UserProfile.scss";
 
 const UserProfile = ({ avatar, name, username }) => {
-  return (
-    <section className="profile">
-    </section>
-  )
+  return <section className="profile" data-testid="user-profile"></section>;
 };
 
 export default UserProfile;

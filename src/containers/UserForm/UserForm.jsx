@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import SuccessMessage from '../../components/SuccessMessage';
+import SuccessMessage from "../../components/SuccessMessage";
 
-import './UserForm.scss';
+import "./UserForm.scss";
 
 const UserForm = () => {
   return (
     <React.Fragment>
+      <div data-testid="user-form"></div>
     </React.Fragment>
   );
 };
