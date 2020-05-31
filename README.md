@@ -1,5 +1,15 @@
 # Instadev React SPA
 
+<img src='https://github.com/codenation-dev/react-instagram/blob/master/docs/instadev.gif'>
+
+## :rocket: Tecnologias
+
+- [_Fetch API_](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+- [_Reac_](https://reactjs.org/)
+- [_Testing-library_](https://testing-library.com/docs/intro)
+
+# 💻 Projeto
+
 ## Objetivo:
 
 O desafio desta semana e da próxima será desenvolver um _SPA (Single Page Application)_ mobile-first do **Instagram** em React, consumindo uma Rest API que deverá cumprir os seguintes critérios:
@@ -275,7 +285,41 @@ Neste desafio você vai praticar os seus conhecimentos em:
 - **React Testing Library**
 - **React**
 
-## Requisitos:
+## pré-requisitos:
 
 - **[Node v13.8.0](https://nodejs.org/en/)** - ou superior, instalado em seu computador.
 - **[Create React App](https://github.com/facebook/create-react-app)**
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+- Abra um Pull Request
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## 🤔 Como Utilizar
+
+- Faça um fork desse repositório
+
+- Navegue até a pasta `AceleraDev-ContactsApp`:
+
+      $ cd AceleraDev-ContactsApp/
+
+- Execute o comando para instalar as depedências:
+
+      $ npm isntall
+
+  ou, para instalar com yarn
+
+      $ yarn
+
+- Para inicializar a plicação execulte:
+
+      & npm run start
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/J-Keven/AceleraDev-Instadev/blob/master/LICENSE) para mais detalhes
