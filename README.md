@@ -1,6 +1,7 @@
-# Instadev React SPA
-
-<img src='https://github.com/codenation-dev/react-instagram/blob/master/docs/instadev.gif'>
+<div>
+<h1 align='center'>Instadev React SPA</h1>
+<img src='https://github.com/codenation-dev/react-instagram/blob/master/docs/instadev.gif' align='center' width='100%'>
+</div>
 
 ## :rocket: Tecnologias
 
@@ -323,3 +324,11 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 ## :memo: License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/J-Keven/AceleraDev-Instadev/blob/master/LICENSE) para mais detalhes
+
+<!--
+Completed
+    UserForm -- containers
+    TopBar - Componnets
+    Index -- Routes
+    NewUser -- Route
+ -->

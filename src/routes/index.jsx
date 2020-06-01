@@ -1,28 +1,20 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import FeedRoute from './FeedRoute';
-import UsersRoute from './UsersRoute';
-import ProfileRoute from './ProfileRoute';
-import NewUserRoute from './NewUserRoute';
+import FeedRoute from "./FeedRoute";
+import UsersRoute from "./UsersRoute";
+import ProfileRoute from "./ProfileRoute";
+import NewUserRoute from "./NewUserRoute";
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/">
+    <Route exact={true} path="/" component={FeedRoute} />
 
-    </Route>
+    <Route exact path="/users" component={UsersRoute} />
 
-    <Route exact path="/users">
+    <Route path="/users/:username" component={ProfileRoute} />
 
-    </Route>
-
-    <Route path="/users/:username">
-
-    </Route>
-
-    <Route path="/newuser">
-
-    </Route>
+    <Route path="/newuser" component={NewUserRoute} />
   </Switch>
 );
 

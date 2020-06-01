@@ -8,7 +8,13 @@ import Posts from "../../containers/Posts";
 import "./FeedRoute.scss";
 
 const FeedRoute = () => {
-  return <div data-testid="feed-route"></div>;
+  return (
+    <div data-testid="feed-route">
+      <Stories />
+      <Loading />
+      <Posts />
+    </div>
+  );
 };
 
 export default FeedRoute;
