@@ -2,6 +2,15 @@
 <h1 align='center'>Instadev React SPA</h1>
 <img src='https://github.com/codenation-dev/react-instagram/blob/master/docs/instadev.gif' align='center' width='100%'>
 </div>
+<hr />
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-utilizar">Como Utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+
+</p>
 
 ## :rocket: Tecnologias
 
@@ -9,9 +18,9 @@
 - [_Reac_](https://reactjs.org/)
 - [_Testing-library_](https://testing-library.com/docs/intro)
 
-# 💻 Projeto
+## 💻 Projeto
 
-## Objetivo:
+### Objetivo:
 
 O desafio desta semana e da próxima será desenvolver um _SPA (Single Page Application)_ mobile-first do **Instagram** em React, consumindo uma Rest API que deverá cumprir os seguintes critérios:
 
@@ -273,7 +282,7 @@ Nesta fase você já foi apresentado ao [testing-library](https://testing-librar
 - _404_ - Not found
 - _500_ - Server error
 
-## Tópicos:
+### Tópicos:
 
 Neste desafio você vai praticar os seus conhecimentos em:
 
@@ -286,7 +295,7 @@ Neste desafio você vai praticar os seus conhecimentos em:
 - **React Testing Library**
 - **React**
 
-## pré-requisitos:
+### pré-requisitos:
 
 - **[Node v13.8.0](https://nodejs.org/en/)** - ou superior, instalado em seu computador.
 - **[Create React App](https://github.com/facebook/create-react-app)**
@@ -324,14 +333,3 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 ## :memo: License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/J-Keven/AceleraDev-Instadev/blob/master/LICENSE) para mais detalhes
-
-<!--
-Completed
-    UserForm -- containers
-    TopBar - Componnets
-    Index -- Routes
-    NewUser -- Route
-    UserList -- containners
-    User -- Componnets
-    USerRoute - router
- -->
